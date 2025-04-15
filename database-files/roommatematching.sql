@@ -9,6 +9,8 @@ CREATE TABLE dormBuilding (
     occupancy INT,
     maxCapacity INT,
     bedsAvailable INT,
+    address varchar(250),
+    amenities varchar(250),
     PRIMARY KEY (dormId)
 );
 
